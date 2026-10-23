@@ -34,7 +34,7 @@ hugoblox:
       text: ''
       url: ''
   footer:
-    style: centered
+    style: minimal
     language_switcher: false
     text: '感知世界，定位未来。'
   copyright:
