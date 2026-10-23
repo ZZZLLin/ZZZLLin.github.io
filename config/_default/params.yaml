@@ -1,0 +1,87 @@
+hugoblox:
+  schema: '2.0'
+  identity:
+    name: '张霖 | Lin Zhang'
+    organization: ''
+    type: person
+    tagline: 'VSLAM · Robotics · Autonomous Systems'
+    description: '北京航空航天大学无人系统研究院 VSLAM 方向硕士研究生张霖的个人学术主页。'
+    social: {}
+  theme:
+    mode: system
+    pack: default
+    colors:
+      primary: indigo
+      secondary: cyan
+      neutral: slate
+  typography:
+    pack: academic
+  layout:
+    radius: lg
+    spacing: comfortable
+    avatar_shape: rounded
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: false
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+      text: ''
+      url: ''
+  footer:
+    style: centered
+    language_switcher: false
+    text: '感知世界，定位未来。'
+  copyright:
+    notice: '© {year} {name}'
+    license:
+      type: custom
+      allow_derivatives: false
+      share_alike: false
+      allow_commercial: false
+  seo:
+    title: '张霖 | VSLAM 与机器人研究'
+    ai:
+      allow: ['/']
+      disallow: []
+      note: 'Public academic profile and project portfolio.'
+      contact: '20220548@stu.cqu.edu.cn'
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: false
+    citations:
+      style: ieee
+  search:
+    enable: false
+  comments:
+    enable: false
+    provider: ''
+  analytics: {}
+  verification:
+    google: ''
+    bing: ''
+    baidu: ''
+  repository:
+    enable: true
+    url: 'https://github.com/ZZZLLin/ZZZLLin.github.io'
+    branch: main
+    content_dir: content
+  locale:
+    date_format: '2006年1月2日'
+    time_format: '15:04'
+    address_format: zh
+  privacy:
+    enable: false
+    anonymize_analytics: true
+  pro:
+    hide_attribution: false
+    affiliate_code: ''

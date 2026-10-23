@@ -1,0 +1,7 @@
+zh:
+  locale: zh-Hans
+  languageName: 中文
+  weight: 1
+  title: '张霖 | Lin Zhang'
+  params:
+    description: '张霖的个人学术主页，研究方向为 VSLAM、机器人导航与无人系统。'

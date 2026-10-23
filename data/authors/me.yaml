@@ -1,0 +1,134 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: 张霖
+  given: 霖
+  family: 张
+  alternate: Lin Zhang
+  pronunciation: ''
+  pronouns: ''
+
+status:
+  icon: '🛰️'
+
+role: VSLAM 方向硕士研究生（推免）
+
+bio: |
+  北京航空航天大学无人系统研究院硕士研究生（推免），研究方向为视觉同步定位与建图（VSLAM）。本科就读于重庆大学电子信息工程专业，专业排名 3/111。关注机器人感知、定位、导航与多传感器融合，重视算法研究与真实系统落地。
+
+affiliations:
+  - name: 北京航空航天大学 · 无人系统研究院
+    url: https://www.buaa.edu.cn/
+
+links:
+  - icon: at-symbol
+    url: mailto:20220548@stu.cqu.edu.cn
+    label: 电子邮件
+  - icon: brands/github
+    url: https://github.com/ZZZLLin
+    label: GitHub
+
+interests:
+  - 视觉同步定位与建图（VSLAM）
+  - 视觉惯性融合与状态估计
+  - 机器人自主导航
+  - 计算机视觉与多传感器融合
+
+education:
+  - degree: 硕士研究生（推免录取）
+    institution: 北京航空航天大学 · 无人系统研究院
+    start: 2026-09-01
+    summary: |
+      研究方向：视觉同步定位与建图（VSLAM）。
+  - degree: 工学学士 · 电子信息工程
+    institution: 重庆大学
+    start: 2022-09-01
+    end: 2026-06-30
+    summary: |
+      GPA 3.76/4.00，加权成绩 89.46，专业排名 3/111（前 3%）。核心课程包括机器学习（99）、雷达原理（93）、数字通信原理（93）、人工智能概论（92）与数字信号处理（89）。
+
+experience:
+  - role: VSLAM 方向研究生
+    org: 北京航空航天大学 · 无人系统研究院
+    start: 2026-09-01
+    summary: |
+      面向无人系统开展视觉同步定位与建图研究，关注复杂环境中的鲁棒感知、状态估计与自主导航。
+  - role: 低延迟推流模块开发
+    org: 重庆大学类脑感知与普适智能科学研究院 × 赛力斯集团
+    start: 2025-03-01
+    end: 2025-07-31
+    summary: |
+      参与“远控驾驶”合作项目，负责多路摄像头实时推流子系统，完成采集、编码及流媒体协议推送全流程；优化推流策略与端到端传输延迟，为远程实时驾驶控制提供支撑。
+  - role: 省级大学生创新训练项目成员
+    org: 图书馆智能辅助机器人设计
+    start: 2023-12-01
+    end: 2024-12-31
+    summary: |
+      主导 ROS 机器人运动控制系统开发，完成底盘驱动、激光雷达配置、SLAM 建图与多目标点自主导航，实现建图、路径规划和运动控制全链路协同，项目获优秀结项。
+
+skills:
+  - name: 机器人与定位
+    items:
+      - label: ROS / ROS 通信机制
+        level: 5
+      - label: SLAM 建图与 MoveBase 导航
+        level: 5
+      - label: 多传感器系统集成
+        level: 4
+  - name: 视觉与软件
+    items:
+      - label: C++ / Python
+        level: 5
+      - label: OpenCV / YOLO / Darknet
+        level: 4
+      - label: MATLAB 建模仿真
+        level: 4
+  - name: 嵌入式与系统
+    items:
+      - label: 智能移动平台开发
+        level: 5
+      - label: 相机 / 激光雷达 / 底盘集成
+        level: 4
+
+awards:
+  - title: 第二十届全国大学生智能汽车竞赛室外 ROS 无人车组全国一等奖
+    awarder: 全国大学生智能汽车竞赛
+    date: '2025-12-01'
+    summary: 室外 ROS 无人车组全国一等奖。
+    icon: hero/trophy
+  - title: 第二十届全国大学生智能汽车竞赛讯飞智慧生活挑战赛全国一等奖
+    awarder: 全国大学生智能汽车竞赛
+    date: '2025-08-01'
+    summary: 作为核心成员完成智能采购小车全系统开发，代码贡献量超过 50%。
+    icon: hero/trophy
+  - title: 第十九届全国大学生智能汽车竞赛讯飞组全国二等奖
+    awarder: 全国大学生智能汽车竞赛
+    date: '2024-08-01'
+    icon: hero/trophy
+  - title: 重庆市大学生创新训练项目优秀结项
+    awarder: 重庆市大学生创新训练项目
+    date: '2024-12-01'
+    icon: hero/check-badge
+  - title: 第十九届全国大学生智能汽车竞赛室外 ROS 无人车组省级三等奖
+    awarder: 全国大学生智能汽车竞赛
+    date: '2024-12-01'
+    icon: hero/trophy
+  - title: 2024 年 TI 杯重庆市大学生电子设计竞赛飞行器组省级三等奖
+    awarder: TI 杯大学生电子设计竞赛
+    date: '2024-08-01'
+    icon: hero/trophy
+  - title: 美国大学生数学建模竞赛 S 奖
+    awarder: MCM/ICM
+    date: '2025-05-01'
+    icon: hero/academic-cap
+  - title: 第十六届蓝桥杯 EDA 设计与开发大学组省级二等奖
+    awarder: 蓝桥杯全国软件和信息技术专业人才大赛
+    date: '2025-05-01'
+    icon: hero/trophy
+  - title: 重庆大学优秀学生及多项奖学金
+    awarder: 重庆大学
+    date: '2025-01-01'
+    summary: 获重庆大学甲、乙、丙等奖学金，新长城奖学金与国家励志奖学金等。
+    icon: hero/sparkles

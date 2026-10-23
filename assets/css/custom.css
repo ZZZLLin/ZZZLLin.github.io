@@ -1,0 +1,29 @@
+:root {
+  --zhang-accent: #2563eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+.hb-section {
+  scroll-margin-top: 5rem;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+}
+
+.prose strong {
+  color: var(--zhang-accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --zhang-accent: #67e8f9;
+  }
+}
